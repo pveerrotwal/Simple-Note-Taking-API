@@ -1,16 +1,20 @@
-# Building a Restful CRUD API with Node.js, Express and MongoDB #
-## We’ll be building a RESTful CRUD (Create, Retrieve, Update, Delete) API with Node.js, Express and MongoDB. ##
-### We’ll use Mongoose for interacting with the MongoDB instance. ###
+# Building a Simple Note Taking API with Node.js, Express and MongoDB #
 
-Backend Developer Assignment: Simple Note-Taking API
+## Backend Developer Assignment: Simple Note-Taking API ##
 Overview
+
 Develop a RESTful API for a simple note-taking application using Node.js and Express.js, with MongoDB
 as the database. The API should allow users to create, retrieve, update, and delete text notes.
-Assignment Requirements
+
+## Assignment Requirements ##
+
 MongoDB Setup:
+
 Use MongoDB to store notes. Each note should have a title, content, and timestamps for creation and
 last modification.
-API Endpoints:
+
+## API Endpoints:
+
 • Create Note: Endpoint to add a new note to the database.
 • Retrieve Notes: Endpoint to get a list of all notes, with an option to retrieve a single note by its
 ID.
@@ -28,5 +32,6 @@ endpoints.
 Documentation:
 • Document the API endpoints, including details about request methods, URL paths, expected
 request body format, and response formats.
-Testing:
+
+## Testing:
 • Write basic tests to ensure API endpoints are functioning as expected.
